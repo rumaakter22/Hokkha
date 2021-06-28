@@ -1,0 +1,1861 @@
+@media(min-width:320px) and (max-width:575px){
+
+
+    .title h2{
+        font-size: 32px;
+        padding-top: 30px;
+    }
+    .title img {
+        padding-top: 20px;
+    }
+    /* =========nav start======= */
+    .navbar{
+        padding-top: 10px !important;
+    }
+    .navbar-toggler{
+        color: #fff;
+        border-color: #fff;
+    }
+    .navbar .nav-item .nav-link::before{
+        display: none;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #313131;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar .nav-item a{
+        padding: 0;
+    }
+    /* =========nav end======= */
+
+    /* =========banner start====== */
+    #banner-part .banner {
+        padding-top: 400px;
+    }
+    #banner-part .banner .overlay h4 {
+        padding-top: 120px;
+        padding-bottom: 22px;
+        font-size: 22px;
+    }
+    #banner-part .banner .overlay h2 {
+        font-size: 47px;
+    }
+    #banner-part .banner .overlay h3 {
+        font-size: 22px;
+    }
+    #banner-part .banner .overlay .main img{
+        display: none;
+    }
+    #banner-part .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px;
+        margin-bottom: 25px;
+    }
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    #banner-part .slick-dots .slick-active button {
+        background: #ed5034;
+        border-color: #ed5034;
+    }
+    .menu-bar .dropdown {
+        top: 27px;
+        position: absolute;
+        left: 20px;
+        width: 204%;
+        background: #111;
+        padding: 10px 12px;
+        z-index: 1;
+    }
+    /* =========banner end======= */
+
+
+    /* =========story start======= */
+    #story-part{
+        position: relative;
+    }
+    #story-part .text .story-title h2 {
+        font-size: 32px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+    }
+    #story-part .text .story-title img {
+        padding-bottom: 27px;
+        padding-left: 20px;
+    }
+    #story-part .text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 40px;
+    }
+    #story-part .text p{
+        width: auto;
+        padding-right: 10px;
+        padding-bottom: 25px;
+        padding-left: 20px;
+    }
+    #story-part .text .button{
+        text-align: center;
+    }
+    #story-part .text .button a{
+        padding: 13px 15px;
+        font-size: 15px;
+    }
+    #story-part .img{
+        padding-top: 700px;
+    }
+    #story-part .img .mocup-smoke {
+        position: absolute;
+        bottom: 13%;
+        left: -61%;
+    }
+    #story-part .img .overlay{
+        width: 80px;
+        height: 80px;
+        top: 74%;
+        left: 52%;
+    }
+    #story-part .img .overlay a {
+        width: 65px;
+        height: 65px;
+    }
+    #story-part .img .overlay a i {
+        font-size: 20px;
+        top: 48%;
+        left: 54%;
+    }
+    /* =========story end======= */
+
+    /* =========home2 story start======= */
+    #story-part .home2-img {
+        width: 100%;
+    }
+    /* =========home2 story end======= */
+
+    /* =========happy-hour start======= */
+    #happy-hour-part .happy-hour{
+        background: none;
+        margin-top: -200px;
+        padding-top: 550px;
+    }
+    #happy-hour-part .counter-down{
+        border-right: none;
+
+    }
+    #happy-hour-part .bottom-text p{
+        border-bottom: 1px solid #272727;
+        padding-bottom: 20px;
+    }
+    #happy-hour-part .counter-down .round {
+        width: 110px;
+        height: 110px;
+        padding-top: 20px;
+    }
+    #happy-hour-part .counter-down .round h3 {
+        font-size: 40px;
+    }
+    #happy-hour-part .counter-down .round p {
+        font-size: 14px;
+    }
+    #happy-hour-part .text-part {
+        text-align: center;
+        padding: 30px 0;
+    }
+    #happy-hour-part .text-part img {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    /* =========happy-hour end======= */
+
+    /* =========team start======= */
+    #team-part{
+        margin-top: 405px;
+        padding-bottom: 75px;
+    }
+    #team-part .team-slider-part {
+        padding: 0;
+    }
+    #team-part .team .round {
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    #team-part .team {
+        padding-top: 0;
+    }
+    #team-part .team .smoke {
+        display: none;
+    }
+    #team-part .text {
+        margin-top: 25px;
+    }
+    #team-part .text h4 {
+        font-size: 22px;
+    }
+    #team-part .text p {
+        font-size: 16px;
+    }
+    #team-part .slick-dots {
+        bottom: -60px;
+    }
+    #team-part .slick-dots li button {
+        margin: 0 4px;
+        width: 13px;
+        height: 13px;
+    }
+    /* =========team end======= */
+
+
+    /* =========gallery start======= */
+
+    #gallery-part .main{
+        display: block;
+    }
+    #gallery-part .main .item{
+        width: 97%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #gallery-part .gallery-img .overlay .icon-box a {
+        padding: 14px;
+    }
+    #gallery-part .button{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #gallery-part .button a{
+        padding: 14px 20px;
+        font-size: 17px;
+    }
+    /* =========gallery end======= */
+
+    /* =========resarvation start======= */
+    #reservation-part{
+        margin-top: 80px;
+    }
+    #reservation-part .reservation-title h2 {
+        font-size: 32px;
+        padding-bottom: 15px;
+        padding-top: 40px;
+    }
+    #reservation-part .reservation-title img {
+        padding-bottom: 25px;
+    }
+    #reservation-part .image .smoke-img{
+        display: none;
+    }
+    #reservation-part form .main {
+        display: block;
+    }
+    #reservation-part form .main .mar {
+        margin-left: 0;
+    }
+    #reservation-part form .dropdown .member {
+        width: 100%;
+    }
+    #reservation-part form .dropdown .day {
+        width: 100%;
+    }
+    #reservation-part form .dropdown .time {
+        width: 100%;
+    }
+    /* =========resarvation end======= */
+
+    /* =========testimonial start======= */
+    #testimonial-part {
+        padding-bottom: 30px;
+    }
+    #testimonial-part .test-slider .item{
+        display: block;
+    }
+    #testimonial-part .test-slider{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #testimonial-part .test-slider .item .img {
+        width: 100%;
+    }
+    #testimonial-part .test-slider .item .text {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-right: 0;
+    }
+    #testimonial-part .test-slider .item .text p {
+        font-size: 17px;
+    }
+    #testimonial-part .test-slider .item .text h3 {
+        padding-top: 20px;
+        font-size: 23px;
+    }
+    #testimonial-part .test-slider .item .text h4 {
+        font-size: 19px;
+        padding-top: 4px;
+    }
+    #testimonial-part .test-slider .item .text ul {
+        padding-top: 4px;
+        padding-bottom: 28px;
+    }
+    #testimonial-part .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px;
+        margin-bottom: 25px;
+    }
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    #testimonial-part .slick-dots .slick-active button {
+        background: #ed5034;
+        border-color: #ed5034;
+    }
+    /* =========testimonial end======= */
+
+    /* =========contact start======= */
+    #contact-part{
+        padding-top: 30px;
+    }
+    #contact-part .item h3 {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+    #contact-part .item h3::after {
+        top: 75%;
+    }
+    #contact-part .item p {
+        font-size: 14px;
+    }
+    #contact-part .item .con::after {
+        height: 15px;
+        left: 48%;
+    }
+    #contact-part .icon-part ul li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    #contact-part .icon-part::before{
+        display: none;
+    }
+    #contact-part .icon-part::after {
+        width: 100%;
+        bottom: -20px;
+        left: 0;
+    }
+    footer p {
+        font-size: 13px;
+        padding-bottom: 10px;
+    }
+    /* =========contact end======= */
+
+    /* ======================new-story-part start================ */
+
+    /* =========new-story start======= */
+    #banner-part .new-story .slick-dots .slick-active button {
+        display: none;
+    }
+    /* =========new-story end======= */
+
+    /* =========new story start======= */
+    
+    #story-part .new-story-img{
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    #story-part .new-story-img .mocup-smoke {
+        bottom: 16%;
+        left: -60%;
+    }
+    #story-part .new-story-img .overlay {
+        top: 50%;
+    }
+    #story-part .new-story-text{
+        position: revert;
+        padding: 0;
+    }
+    #story-part .new-story-text p {
+        padding-left: 10px;
+    }
+    #story-part .new-story-text .story-title h2 {
+        padding-left: 10px;
+    }
+    #story-part .new-story-text .story-title img {
+        padding-left: 10px;
+    }
+    #story-part .new-story-text .img-part {
+        justify-content: center;
+    }
+    #story-part .new-story-text .img-part .img {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #story-part .new-story-text .img-part .img .round {
+        width: 60px;
+        height: 60px;
+    }
+    #story-part .new-story-text .img-part .img .round2 a {
+        width: 45px;
+        height: 45px;
+    }
+    #story-part .new-story-text .img-part .img a i {
+        font-size: 16px;
+        top: 41%;
+        left: 55%;
+    }
+    #story-part .new-story-text .img1{
+        display: none;
+    }
+    /* =========new story end======= */
+
+    /* =========new story-counter start======= */
+    #counter-part{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-top: 60px;
+    }
+    #counter-part .item h2 {
+        font-size: 32px;
+        padding-bottom: 5px;
+    }
+    #counter-part .item p {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+    /* =========new story-counter end======= */
+
+    /* =========story-team start======= */
+    #team-part .story-team-part {
+        margin-top: -365px;
+    }
+    /* =========story-team end======= */
+
+    /* ======================new-story-part end================ */
+
+    /* ======================new-gallery-part start================ */
+    #banner-part .new-gallery .slick-dots .slick-active button {
+        display: none;
+    }
+    
+    /* ======================new-gallery-part end================ */
+
+    /* ============newcontact-part start============= */
+    #banner-con-part .banner .banner-smoke .overlay h2 {
+        padding-top: 140px;
+        font-size: 27px;
+    }
+    #banner-con-part .banner .banner-smoke .overlay h3 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 12px;
+    }
+    #banner-con-part .btn a {
+        font-size: 15px;
+        padding: 13px 22px;
+    }
+    #banner-con-part .counter-down .left {
+        display: block;
+    }
+    #banner-con-part .counter-down .right {
+        display: block;
+    }
+    #banner-con-part .counter-down .round {
+        margin: 0 20px;
+    }
+    #banner-con-part .counter-down .round h4 {
+        font-size: 50px;
+    }
+    #banner-con-part .counter-down .round p {
+        font-size: 23px;
+        padding-bottom: 30px;
+    }
+
+
+    /* ============newcontact-part end============= */
+
+    /* ============error-part start============= */
+    #error-part .error{
+        padding-top: 0;
+        padding-bottom: 450px;
+    }
+    #error-part .error a {
+        font-size: 21px;
+        padding: 9px 27px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+     /* ============error-part end=========== */
+
+}
+@media(min-width:576px) and (max-width:767px){
+
+
+    .title h2{
+        font-size: 34px;
+        padding-top: 50px;
+    }
+    .title img {
+        padding-top: 25px;
+    }
+    /* =========nav start======= */
+    .navbar{
+        padding-top: 10px !important;
+    }
+    .navbar-toggler{
+        color: #fff;
+        border-color: #fff;
+    }
+    .navbar .nav-item .nav-link::before{
+        display: none;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #313131;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar .nav-item a{
+        padding: 0;
+    }
+    .menu-bar .dropdown {
+        top: 28px;
+        position: absolute;
+        left: 20px;
+        width: 205%;
+        background: #111;
+        padding: 10px 12px;
+        z-index: 1;
+    }
+    /* =========nav end======= */
+
+    /* =========banner start====== */
+    #banner-part .banner {
+        padding-top: 460px;
+    }
+    #banner-part .banner .overlay h4 {
+        padding-top: 130px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+    #banner-part .banner .overlay h2 {
+        font-size: 59px;
+    }
+    #banner-part .banner .overlay h3 {
+        font-size: 27px;
+    }
+    #banner-part .banner .overlay .main img{
+        display: block;
+    }
+    #banner-part .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px;
+        margin-bottom: 25px;
+    }
+    #banner-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    #banner-part .slick-dots .slick-active button {
+        background: #ed5034;
+        border-color: #ed5034;
+    }
+    /* =========banner end======= */
+
+    /* =========story start======= */
+    #story-part{
+        position: relative;
+    }
+    #story-part .text .story-title{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #story-part .text .story-title h2 {
+        font-size: 34px;
+        padding-bottom: 12px;
+    }
+    #story-part .text .story-title img {
+        padding-bottom: 27px;
+    }
+    #story-part .text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 40px;
+    }
+    #story-part .text p{
+        width: 80%;
+        margin: 0 auto;
+        padding-right: 10px;
+        padding-bottom: 25px;
+    }
+    #story-part .text .button{
+        text-align: center;
+    }
+    #story-part .text .button a{
+        padding: 13px 15px;
+        font-size: 15px;
+    }
+    #story-part .img {
+        padding-top: 530px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #story-part .img .mocup-smoke {
+        position: absolute;
+        bottom: 16%;
+        left: -60%;
+    }
+    #story-part .img .overlay {
+        width: 90px;
+        height: 90px;
+        top: 65%;
+        left: 52%;
+    }
+    #story-part .img .overlay a {
+        width: 66px;
+        height: 66px;
+    }
+    #story-part .img .overlay a i {
+        font-size: 19px;
+        top: 47%;
+        left: 54%;
+    }
+    /* =========story end======= */
+
+    /* =========happy-hour start======= */
+    #happy-hour-part .happy-hour{
+        background: none;
+        margin-top: -200px;
+        padding-top: 550px;
+    }
+    #happy-hour-part .counter-down{
+        border-right: none;
+
+    }
+    #happy-hour-part .bottom-text p{
+        border-bottom: 1px solid #272727;
+        padding-bottom: 20px;
+    }
+    #happy-hour-part .counter-down .round {
+        width: 130px;
+        height: 130px;
+        padding-top: 28px;
+    }
+    #happy-hour-part .counter-down .round h3 {
+        font-size: 47px;
+    }
+    #happy-hour-part .counter-down .round p {
+        font-size: 17px;
+    }
+    #happy-hour-part .text-part {
+        text-align: center;
+        padding: 30px 0;
+    }
+    #happy-hour-part .text-part p{
+        font-size: 20px;
+    }
+    #happy-hour-part .text-part img {
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+    #happy-hour-part .bottom-text p {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    /* =========happy-hour end======= */
+
+    /* =========team start======= */
+    #team-part{
+        margin-top: 530px;
+        padding-bottom: 75px;
+    }
+    #team-part .team-slider-part {
+        padding: 0;
+    }
+    #team-part .team .smoke {
+        top: -139px;
+        left: -4px;
+        width: 105%;
+    }
+    #team-part .team {
+        padding-top: 0;
+    }
+    #team-part .text {
+        margin-top: 25px;
+    }
+    #team-part .text h4 {
+        font-size: 22px;
+    }
+    #team-part .text p {
+        font-size: 16px;
+    }
+    #team-part .slick-dots {
+        bottom: -60px;
+    }
+    #team-part .slick-dots li button {
+        margin: 0 4px;
+        width: 13px;
+        height: 13px;
+    }
+    /* =========team end======= */
+
+    /* =========gallery start======= */
+
+    #gallery-part .main{
+        display: block;
+    }
+    #gallery-part .main .item{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #gallery-part .gallery-img .overlay .icon-box a {
+        padding: 14px;
+    }
+    #gallery-part .button{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #gallery-part .button a{
+        padding: 14px 20px;
+        font-size: 17px;
+    }
+    /* =========gallery end======= */
+
+    /* =========resarvation start======= */
+    #reservation-part{
+        margin-top: 120px;
+    }
+    #reservation-part .image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #reservation-part .form-part{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #reservation-part .image .smoke-img{
+        display: none;
+    }
+    #reservation-part .reservation-title h2 {
+        font-size: 34px;
+        padding-bottom: 15px;
+        padding-top: 40px;
+    }
+    #reservation-part .reservation-title img {
+        padding-bottom: 25px;
+    }
+    #reservation-part form .main {
+        display: block;
+    }
+    #reservation-part form .main .mar {
+        margin-left: 0;
+    }
+    #reservation-part form .dropdown .member {
+        width: 100%;
+    }
+    #reservation-part form .dropdown .day {
+        width: 100%;
+    }
+    #reservation-part form .dropdown .time {
+        width: 100%;
+    }
+    /* =========resarvation end======= */
+
+    /* =========testimonial start======= */
+    #testimonial-part {
+        padding-bottom: 30px;
+    }
+    #testimonial-part .test-slider {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    #testimonial-part .test-slider .item .img {
+        width: 40%;
+    }
+    #testimonial-part .test-slider .item .text {
+        width: 60%;
+        padding: 0;
+        padding-top: 24px;
+        padding-left: 20px;
+    }
+    #testimonial-part .test-slider .item .img{
+        padding: 30px 0;
+        padding-left: 10px;
+    }
+    #testimonial-part .test-slider .item .img img{
+        width: 100%;
+    }
+    #testimonial-part .test-slider .item .text p{
+        font-size: 15px;
+    }
+    #testimonial-part .test-slider .item .text h3 {
+        padding-top: 16px;
+        font-size: 22px;
+    }
+    #testimonial-part .test-slider .item .text h4 {
+        font-size: 19px;
+        padding-top: 4px;
+    }
+    #testimonial-part .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px;
+    }
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    #testimonial-part .slick-dots .slick-active button {
+        background: #ed5034;
+        border-color: #ed5034;
+    }
+    /* =========testimonial end======= */
+
+    /* =========contact start======= */
+    #contact-part{
+        padding-top: 30px;
+    }
+    #contact-part .item {
+        padding-bottom: 20px;
+    }
+    #contact-part .item h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    #contact-part .item h3::after {
+        top: 75%;
+    }
+    #contact-part .item p {
+        font-size: 16px;
+    }
+    #contact-part .item .con::after {
+        height: 15px;
+        left: 48%;
+    }
+    #contact-part .icon-part ul li a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    #contact-part .icon-part::before{
+        display: none;
+    }
+    #contact-part .icon-part::after {
+        width: 100%;
+        bottom: -20px;
+        left: 0;
+    }
+    /* =========contact end======= */
+
+    /* =========footer start======= */
+    footer p {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    /* =========footer end======= */
+
+    /* ======================new-story-part start================ */
+
+    /* =========new-story start======= */
+    #banner-part .new-story .slick-dots .slick-active button {
+        display: none;
+    }
+    /* =========new-story end======= */
+
+    /* =========new story start======= */
+
+    #story-part .new-story-img{
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+    #story-part .new-story-img .mocup-smoke {
+        bottom: 16%;
+        left: -60%;
+    }
+    #story-part .new-story-img .overlay {
+        top: 48%;
+    }
+    #story-part .new-story-text{
+        position: revert;
+        padding: 0;
+    }
+    #story-part .new-story-text p {
+        padding-left: 10px;
+        width: 90%;
+    }
+    #story-part .new-story-text .story-title {
+        width: 90%;
+    }
+    #story-part .new-story-text .story-title h2 {
+        padding-left: 10px;
+    }
+    #story-part .new-story-text .story-title img {
+        padding-left: 10px;
+    }
+    #story-part .new-story-text .img-part {
+        justify-content: center;
+    }
+    #story-part .new-story-text .img-part .img {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    #story-part .new-story-text .img-part .img .round {
+        width: 60px;
+        height: 60px;
+    }
+    #story-part .new-story-text .img-part .img .round2 a {
+        width: 45px;
+        height: 45px;
+    }
+    #story-part .new-story-text .img-part .img a i {
+        font-size: 16px;
+        top: 41%;
+        left: 55%;
+    }
+    #story-part .new-story-text .img1{
+        display: block;
+    }
+/* =========new story end======= */
+
+/* =========new story-counter start======= */
+    #counter-part{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-top: 60px;
+    }
+    #counter-part .item h2 {
+        font-size: 32px;
+        padding-bottom: 5px;
+    }
+    #counter-part .item p {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+/* =========new story-counter end======= */
+
+/* =========story-team start======= */
+    #team-part .story-team-part {
+        margin-top: -460px;
+    }
+/* =========story-team end======= */
+
+/* ======================new-story-part end================ */
+
+/* ======================new-gallery-part start================ */
+#banner-part .new-gallery .slick-dots .slick-active button {
+    display: none;
+}
+
+/* ======================new-gallery-part end================ */
+
+
+/* ============newcontact-part start============= */
+#banner-con-part .banner .banner-smoke .overlay h2 {
+    padding-top: 180px;
+    font-size: 30px;
+}
+#banner-con-part .banner .banner-smoke .overlay h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+#banner-con-part .btn a {
+    font-size: 17px;
+    padding: 16px 24px;
+}
+#banner-con-part .counter-down .left {
+    display: block;
+}
+#banner-con-part .counter-down .right {
+    display: block;
+}
+#banner-con-part .counter-down .round {
+    margin: 0 30px;
+}
+#banner-con-part .counter-down .round h4 {
+    font-size: 55px;
+}
+#banner-con-part .counter-down .round p {
+    font-size: 26px;
+    padding-bottom: 30px;
+}
+/* ============newcontact-part end============= */
+
+/* ============error-part start============= */
+#error-part .error{
+    padding-top: 0;
+    padding-bottom: 450px;
+}
+#error-part .error a {
+    font-size: 23px;
+    padding: 15px 35px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* ============error-part end============= */
+
+}
+@media(min-width:768px) and (max-width:991px){
+
+
+    .title h2{
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    .title img {
+        padding-top: 25px;
+    }
+    /* =========nav start======= */
+    .navbar{
+        padding-top: 10px !important;
+    }
+    .navbar-toggler{
+        color: #fff;
+        border-color: #fff;
+    }
+    .navbar .nav-item .nav-link::before{
+        display: none;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: #313131;
+    }
+    .navbar .nav-item{
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar .nav-item a{
+        padding: 0;
+    }
+    .menu-bar .dropdown {
+        top: 28px;
+        position: absolute;
+        left: 20px;
+        width: 205%;
+        background: #111;
+        padding: 10px 12px;
+        z-index: 1;
+    }
+    /* =========nav end======= */
+
+    /* =========banner start====== */
+    #banner-part .banner {
+        padding-top: 560px;
+    }
+    #banner-part .banner .overlay h4 {
+        padding-top: 130px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+    #banner-part .banner .overlay h2 {
+        font-size: 59px;
+    }
+    #banner-part .banner .overlay h3 {
+        font-size: 27px;
+    }
+    #banner-part .banner .overlay .main img{
+        display: block;
+    }
+    #banner-part .next {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 17px;
+        right: 45%;
+    }
+    #banner-part .prev {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 17px;
+        left: 45%;
+    }
+    /* =========banner end======= */
+
+    /* =========story start======= */
+
+
+    #story-part .text {
+        padding-top: 60px;
+    }
+    #story-part .img {
+        padding-top: 130px;
+    }
+    #story-part .img .overlay {
+        width: 85px;
+        height: 85px;
+        top: 49%;
+        left: 54%;
+    }
+    #story-part .img .overlay a {
+        width: 70px;
+        height: 70px;
+        top: 7%;
+    }
+    #story-part .img .overlay a i {
+        font-size: 19px;
+        top: 48%;
+        left: 54%;
+    }
+    #story-part .img .mocup-smoke {
+        bottom: 26%;
+    }
+    #story-part .text .story-title h2 {
+        font-size: 36px;
+        padding-bottom: 12px;
+    }
+    #story-part .text .story-title img {
+        padding-bottom: 20px;
+    }
+    #story-part .text p {
+        width: 100%;
+        font-size: 14px;
+        padding-bottom: 25px;
+        line-height: 23px;
+    }
+    #story-part .text .button a{
+        padding: 13px 15px;
+        font-size: 15px;
+    }
+    /* =========story end======= */
+
+    /* =========happy-hour start======= */
+    #happy-hour-part .happy-hour{
+        background-size: cover;
+        padding-top: 660px;
+        margin-top: -87px;
+    }
+    #happy-hour-part .counter-down{
+        border-right: none;
+    }
+    #happy-hour-part .bottom-text p{
+        border-bottom: none;
+        padding-bottom: 20px;
+    }
+    #happy-hour-part .counter-down .round {
+        width: 115px;
+        height: 115px;
+        padding-top: 16px;
+    }
+    #happy-hour-part .counter-down .round h3 {
+        font-size: 47px;
+    }
+    #happy-hour-part .counter-down .round p {
+        font-size: 17px;
+    }
+    #happy-hour-part .text-part {
+        padding: 0;
+        padding-left: 50px;
+        border-left: 1px solid #383838;
+    }
+    #happy-hour-part .text-part p{
+        font-size: 18px;
+    }
+    #happy-hour-part .text-part img {
+        padding-top: 0px;
+        padding-bottom: 34px;
+    }
+    #happy-hour-part .bottom-text p {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    /* =========happy-hour end======= */
+
+    /* =========new happy-hour start======= */
+    #happy-hour-part .home2-happyhour {
+        background-size: cover;
+        padding-top: 514px;
+        margin-top: -114px;
+        margin-bottom: 120px;
+    }
+    /* =========new happy-hour end======= */
+
+    /* =========team start======= */
+    #team-part{
+        padding-bottom: 100px;
+    }
+    #team-part .team-slider-part {
+        padding: 0;
+    }
+    #team-part .team .smoke {
+        top: -124px;
+        left: -6px;
+        width: 110%;
+    }
+    #team-part .team {
+        padding-top: 0;
+    }
+    #team-part .team .round {
+        width: 210px;
+        height: 210px;
+    }
+    #team-part .text {
+        margin-top: 25px;
+    }
+    #team-part .text h4 {
+        font-size: 22px;
+    }
+    #team-part .text p {
+        font-size: 16px;
+    }
+    #team-part .slick-dots {
+        bottom: -70px;
+    }
+    #team-part .slick-dots li button {
+        margin: 0 4px;
+        width: 13px;
+        height: 13px;
+    }
+    /* =========team end======= */
+
+    /* =========gallery start======= */
+
+    #gallery-part .main{
+        display: flex;
+    }
+    #gallery-part .main .item{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #gallery-part .gallery-img {
+        width: 93%;
+        position: relative;
+        margin: 0 auto;
+    }
+    #gallery-part .gallery-img .overlay .icon-box a {
+        padding: 6px;
+    }
+    #gallery-part .button{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #gallery-part .button a{
+        padding: 14px 20px;
+        font-size: 17px;
+    }
+    /* =========gallery end======= */
+
+    /* =========resarvation start======= */
+    #reservation-part .reservation-title h2{
+        font-size: 38px;
+        padding-bottom: 0;
+    }
+    #reservation-part .reservation-title img {
+        padding-bottom: 6px;
+    }
+    #reservation-part .image .smoke-img {
+        position: absolute;
+        top: -7%;
+        left: -38%;
+        z-index: -1;
+        width: 188%;
+    }
+    #reservation-part form .main input {
+        padding: 7px;
+        margin-top: 10px;
+    }
+    #reservation-part form .main input::placeholder{
+        font-size: 14px;
+    }
+    #reservation-part .image {
+        padding-top: 70px;
+    }
+    #reservation-part form textarea {
+        padding: 7px;
+        height: 110px;
+    }
+    #reservation-part form textarea::placeholder{
+        font-size: 14px;
+    }
+    #reservation-part form .dropdown select {
+        padding: 8px;
+        margin-top: 12px;
+        font-size: 12px;
+    }
+    #reservation-part form button {
+        margin-top: 16px;
+        padding: 6px 0;
+    }
+    #reservation-part form button a {
+        font-size: 23px;
+    }
+    /* =========resarvation end======= */
+
+    /* =========testimonial start======= */
+    #testimonial-part {
+        padding-bottom: 30px;
+    }
+    #testimonial-part .test-slider {
+        width: 90%;
+        padding-bottom: 50px;
+    }
+    #testimonial-part .test-slider .item .img {
+        width: 40%;
+    }
+    #testimonial-part .test-slider .item .text {
+        width: 60%;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    #testimonial-part .test-slider .item .img{
+        padding: 0;
+    }
+    #testimonial-part .test-slider .item .img img{
+        width: 100%;
+    }
+    #testimonial-part .test-slider .item .text p{
+        font-size: 18px;
+    }
+    #testimonial-part .test-slider .item .text h3 {
+        padding-top: 16px;
+        font-size: 22px;
+    }
+    #testimonial-part .test-slider .item .text h4 {
+        font-size: 20px;
+        padding-top: 4px;
+    }
+    #testimonial-part .test-slider .item .text ul{
+        padding-top: 5px;
+    }
+    #testimonial-part .slick-dots {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 4px;
+    }
+    #testimonial-part .slick-dots li button {
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        border: 1px solid #8a8988;
+        background: transparent;
+        border-radius: 50%;
+        margin: 0 8px;
+    }
+    #testimonial-part .slick-dots .slick-active button {
+        background: #ed5034;
+        border-color: #ed5034;
+    }
+    /* =========testimonial end======= */
+
+    /* =========contact start======= */
+    #contact-part{
+        padding-top: 30px;
+    }
+    #contact-part .item {
+        padding-bottom: 20px;
+    }
+    #contact-part .item h3 {
+        font-size: 30px;
+        padding-top: 25px;
+    }
+    #contact-part .item h3::after {
+        top: 75%;
+    }
+    #contact-part .item p {
+        font-size: 14px;
+    }
+    #contact-part .item .con p {
+        padding: 0px 2px;
+        padding-bottom: 10px;
+    }
+    #contact-part .item .con::after {
+        width: 1px;
+        height: 14px;
+        left: 117px;
+        top: 3px;
+    }
+    #contact-part .icon-part ul li a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    #contact-part .icon-part::before{
+        display: none;
+    }
+    #contact-part .icon-part::after {
+        width: 100%;
+        bottom: -20px;
+        left: 0;
+    }
+    /* =========contact end======= */
+
+    /* =========footer start======= */
+    footer p {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    /* =========footer end======= */
+
+
+    /* ======================new-story-part start=================== */
+    #banner-part .new-story-banner {
+        padding-top: 380px;
+    }
+    #story-part .new-story-text p{
+        font-size: 12px;
+    }
+    #story-part .new-story-text .img-part .img {
+        width: 120px;
+        height: 120px;
+    }
+    #story-part .new-story-text .img-part .img .round {
+        width: 50px;
+        height: 50px;
+    }
+    #story-part .new-story-text .img-part .img .round2 a {
+        width: 40px;
+        height: 40px;
+    }
+    #story-part .new-story-text .img-part .img a i {
+        font-size: 14px;
+        top: 38%;
+    }
+    #counter-part{
+        margin: 40px auto;
+        padding-bottom: 20px;
+    }
+    #counter-part .item {
+        padding-bottom: 40px;
+    }
+    /* ======================new-story-part end=================== */
+
+    /* ============ newcontact-part start============= */
+    #banner-con-part .banner .banner-smoke .overlay h2 {
+        font-size: 39px;
+    }
+    /* ============ newcontact-part end============= */
+
+    /* ============ error-part start============= */
+    #error-part .error{
+        padding-top: 0;
+        padding-bottom: 550px;
+    }
+    #error-part .error a {
+        font-size: 24px;
+        padding: 16px 37px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* ============ error-part end============= */
+
+}
+@media(min-width:992px) and (max-width:1199px){
+
+
+    .title h2{
+        font-size: 38px;
+        padding-top: 50px;
+    }
+    .title img {
+        padding-top: 16px;
+    }
+
+    /* =========banner start====== */
+    #banner-part .banner {
+        padding-top: 560px;
+    }
+    #banner-part .banner .overlay h4 {
+        padding-top: 130px;
+        padding-bottom: 30px;
+        font-size: 28px;
+    }
+    #banner-part .banner .overlay h2 {
+        font-size: 59px;
+    }
+    #banner-part .banner .overlay h3 {
+        font-size: 27px;
+    }
+    #banner-part .banner .overlay .main img{
+        display: block;
+    }
+    #banner-part .next {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 17px;
+        right: 45%;
+    }
+    #banner-part .prev {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        font-size: 17px;
+        left: 45%;
+    }
+    /* =========banner end======= */
+
+    /* =========story start======= */
+    #story-part .text {
+        padding-top: 60px;
+    }
+    #story-part .img {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    #story-part .img .overlay {
+        width: 85px;
+        height: 85px;
+        top: 49%;
+        left: 54%;
+    }
+    #story-part .img .overlay a {
+        width: 70px;
+        height: 70px;
+        top: 7%;
+    }
+    #story-part .img .overlay a i {
+        font-size: 19px;
+        top: 48%;
+        left: 54%;
+    }
+    #story-part .img .mocup-smoke {
+        bottom: 20%;
+        left: -61%;
+    }
+    #story-part .text .story-title h2 {
+        font-size: 38px;
+        padding-bottom: 12px;
+    }
+    #story-part .text .story-title img {
+        padding-bottom: 20px;
+    }
+    #story-part .text p {
+        width: 100%;
+        font-size: 16px;
+        padding-bottom: 30px;
+        line-height: 25px;
+    }
+    #story-part .text .button a {
+        padding: 15px 18px;
+        font-size: 18px;
+    }
+    /* =========story end======= */
+
+    /* =========happy-hour start======= */
+    #happy-hour-part .happy-hour{
+        background-size: cover;
+        margin-top: -70px;
+        padding-top: 690px;
+    }
+    #happy-hour-part .counter-down{
+        border-right: none;
+    }
+    #happy-hour-part .bottom-text p{
+        border-bottom: none;
+        padding-bottom: 20px;
+    }
+    #happy-hour-part .counter-down .round {
+        width: 115px;
+        height: 115px;
+        padding-top: 16px;
+    }
+    #happy-hour-part .counter-down .round h3 {
+        font-size: 47px;
+    }
+    #happy-hour-part .counter-down .round p {
+        font-size: 17px;
+    }
+    #happy-hour-part .text-part {
+        padding: 0;
+        padding-left: 50px;
+        border-left: 1px solid #383838;
+    }
+    #happy-hour-part .text-part p{
+        font-size: 18px;
+    }
+    #happy-hour-part .text-part img {
+        padding-top: 0px;
+        padding-bottom: 34px;
+    }
+    #happy-hour-part .bottom-text p {
+        font-size: 32px;
+        padding-bottom: 25px;
+    }
+    /* =========happy-hour end======= */
+
+    /* =========new happy-hour start======= */
+    #happy-hour-part .home2-happyhour {
+        background-size: cover;
+        margin-top: 0px;
+        padding-top: 680px;
+    }
+    /* =========new happy-hour end======= */
+
+    /* =========team start======= */
+    #team-part{
+        padding-bottom: 100px;
+    }
+    #team-part .team-slider-part {
+        padding: 0;
+    }
+    #team-part .team .smoke {
+        top: -145px;
+        left: 1px;
+        width: 105%;
+    }
+    #team-part .team {
+        padding-top: 0;
+    }
+    #team-part .team .round {
+        width: 210px;
+        height: 210px;
+        margin-top: 70px;
+    }
+    #team-part .text {
+        margin-top: 25px;
+    }
+    #team-part .text h4 {
+        font-size: 22px;
+    }
+    #team-part .text p {
+        font-size: 16px;
+    }
+    #team-part .slick-dots {
+        bottom: -70px;
+    }
+    #team-part .slick-dots li button {
+        margin: 0 4px;
+        width: 13px;
+        height: 13px;
+    }
+    /* =========team end======= */
+
+    /* =========gallery start======= */
+
+    #gallery-part .main{
+        display: flex;
+    }
+    #gallery-part .main .item{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    #gallery-part .gallery-img {
+        width: 93%;
+        position: relative;
+        margin: 0 auto;
+    }
+    #gallery-part .gallery-img .overlay .icon-box a {
+        padding: 6px;
+    }
+    #gallery-part .button{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #gallery-part .button a {
+        padding: 15px 27px;
+        font-size: 20px;
+    }    
+    /* =========gallery end======= */
+
+    /* =========resarvation start======= */
+    #reservation-part .reservation-title h2{
+        font-size: 34px;
+        padding-bottom: 8px;
+    }
+    #reservation-part .image {
+        padding-top: 10px;
+    }
+    
+    #reservation-part .reservation-title img {
+        padding-bottom: 12px;
+    }
+    #reservation-part form .main input {
+        padding: 10px;
+        margin-top: 13px;
+    }
+    #reservation-part form .main .mar {
+        margin-left: 14px;
+    }
+    #reservation-part form .main input::placeholder{
+        font-size: 15px;
+    }
+    #reservation-part form textarea {
+        padding: 10px;
+        height: 140px;
+    }
+    #reservation-part form textarea::placeholder{
+        font-size: 15px;
+    }
+    #reservation-part form .dropdown select {
+        padding: 10px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    #reservation-part form button {
+        margin-top: 16px;
+        padding: 6px 0;
+    }
+    #reservation-part form button a {
+        font-size: 23px;
+    }
+    /* =========resarvation end======= */
+
+    /* =========testimonial start======= */
+    #testimonial-part .test-slider .item .text {
+        padding: 0;
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+    #testimonial-part .test-slider .item .text p {
+        font-size: 17px;
+    }
+    /* =========testimonial end======= */
+
+    /* =========contact start======= */
+    #contact-part{
+        padding-top: 30px;
+    }
+    #contact-part .item {
+        padding-bottom: 20px;
+    }
+    #contact-part .item h3 {
+        font-size: 32px;
+        padding-top: 25px;
+    }
+    #contact-part .item h3::after {
+        top: 75%;
+    }
+    #contact-part .item p {
+        font-size: 16px;
+    }
+    #contact-part .item .con p {
+        padding: 0px 2px;
+        padding-bottom: 10px;
+    }
+    #contact-part .item .con::after {
+        width: 1px;
+        height: 14px;
+        left: 117px;
+        top: 3px;
+    }
+    #contact-part .icon-part ul li a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    #contact-part .icon-part::before{
+        display: none;
+    }
+    #contact-part .icon-part::after {
+        width: 100%;
+        bottom: -20px;
+        left: 0;
+    }
+    /* =========contact end======= */
+
+    /* =========footer start======= */
+    footer p {
+        font-size: 16px;
+        padding-bottom: 16px;
+    }
+    /* =========footer end======= */
+
+    /* ==================new-story-part start================= */
+    #banner-part .new-story-banner {
+        padding-top: 400px;
+    }
+    /* ==================new-story-part end================= */
+    #counter-part {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    #counter-part .item h2 {
+        font-size: 37px;
+    }
+    #counter-part .item p {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width:500px) and (max-width:575px){
+    #story-part .img {
+        padding-top: 530px;
+    }
+    #story-part .img img {
+        width: 90%;
+    }
+    #story-part .img .mocup-smoke {
+        position: absolute;
+        bottom: 16%;
+        left: -55%;
+    }
+    #story-part .img .overlay {
+        top: 63%
+    }
+}

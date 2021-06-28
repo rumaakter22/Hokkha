@@ -1,0 +1,1266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+    padding-left: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+    background: url(../images/backgroung.png) no-repeat center;
+    background-size: cover;
+}
+html,.story-bg{
+    overflow-x: hidden;
+    background: url(../images/new-story-bg.png) no-repeat center;
+    background-size: cover;
+}
+html,.gallery-bg{
+    overflow-x: hidden;
+    background: url(../images/new-gallery-bg.png) no-repeat center;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 60px;
+}
+.title img{
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+/* ===================================
+          navbar part start
+==================================== */
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    transition: .4s;
+}
+.navbar .nav-item{
+    position: relative;
+    margin: 0 18px;
+}
+.navbar .nav-item a {
+	width: 100%;
+	display: inline-block;
+	padding-top: 34px;
+	padding-bottom: 20px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar .nav-item:hover .nav-link{
+    transition: .4s;
+}
+.navbar .nav-item:hover .nav-link{
+    color: #ed5034;
+}
+.navbar .nav-item .active {
+    color: #ed5034;
+}
+
+.navbar .navbar-nav li .nav-link.active::before {
+    height: 115px;
+}
+.navbar .navbar-nav .nav-link::before {
+    width: 100%;
+    height: 0px;
+    position: absolute;
+    top: -41px;
+    left: 0px;
+    content: '';
+    background-color: #fff;
+    border-bottom: 3px solid #ed5034;
+    z-index: -1;
+    transition: .6s ;
+}
+.navbar .nav-item .nav-link:hover::before{
+    height: 115px;
+} 
+.menufixed{
+    background: #222;
+    z-index: 9999;
+    padding-bottom: 10px !important;
+}
+
+.menu-bar{
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.navbar .drop:hover .menu-bar{
+    opacity: 1;
+    visibility: visible;
+}
+.navbar .drop i{
+    transition: .4s;
+    font-size: 21px;
+}
+.navbar .drop:hover i{
+    transform: rotate(180deg);
+}
+.navbar .nav-item .dropdown li:hover a {
+    color: #ed5034;
+}
+.menu-bar .dropdown {
+    top: 74px;
+    position: absolute;
+    left: 52px;
+    width: 172%;
+    background: #111;
+    padding: 10px 12px;
+}
+.menu-bar .dropdown a{
+    padding: 0;
+    padding: 7px 0;
+}
+
+/* ===================================
+          navbar part end
+==================================== */
+
+/* ===================================
+          banner part start
+==================================== */
+#banner-part .banner{
+    background: url(../images/banner1.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 830px;
+}
+#banner-part .banner2{
+    background: url(../images/banner2.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#banner-part .banner3{
+    background: url(../images/banner3.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#banner-part .banner .banner-smoke{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/banner-smoke.png) no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+#banner-part .banner .overlay h4{
+    padding-top: 210px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    color: #f0f0f0;
+}
+#banner-part .banner .overlay h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner-part .banner .overlay .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-part .banner .overlay h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    color: #d4d4d4;
+    padding: 15px 20px;
+    position: relative;
+}
+#banner-part .prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #696868;
+    border: 1px solid #696868;
+    background: transparent;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+#banner-part .next{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #696868;
+    border: 1px solid #696868;
+    background: transparent;
+    text-align: center;
+    line-height: 60px;
+    font-size: 17px;
+    position: absolute;
+    top: 85%;
+    right: 47%;
+    transform: translate(50%,-50%);
+    transition: .4s;
+    cursor: pointer;
+}
+#banner-part .prev:hover{
+    background: #fff;
+    border-color: #fff;
+    color: #ed5034;
+}
+#banner-part .next:hover{
+    background: #fff;
+    border-color: #fff;
+    color: #ed5034;
+}
+
+/* ===================================
+          banner part end
+==================================== */
+
+/* ===================================
+         new banner part start
+==================================== */
+#banner-part .home-banner1{
+    background: url(../images/home2-banner1.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 830px;
+}
+#banner-part .home-banner2{
+    background: url(../images/home2-banner2.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+#banner-part .home-banner3{
+    background: url(../images/home2-banner3.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+/* ===================================
+         new banner part start
+==================================== */
+
+/* ===================================
+        new story-banner part start
+==================================== */
+#banner-part .new-story-banner{
+    padding-top: 400px;
+}
+#banner-part h5{
+    font-family: 'Yeseva One', cursive;
+    font-size: 44px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 180px;
+}
+#banner-part h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+/* ===================================
+        new story-banner part end
+==================================== */
+
+/* ===================================
+        banner-con part start
+==================================== */
+#banner-con-part .banner{
+    background: url(../images/new-contact.png) no-repeat center;
+    background-size: cover;
+}
+#banner-con-part .banner .banner-smoke{
+    background: url(../images/banner-smoke.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+#banner-con-part .banner .banner-smoke .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    text-align: center;
+}
+#banner-con-part .banner .banner-smoke .overlay h2{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 42px;
+    font-weight: 400;
+}
+#banner-con-part .banner .banner-smoke .overlay h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    padding-bottom: 5px;
+}
+#banner-con-part .btn a{
+    background: url(../images/button-bg.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-radius: 45px;
+    color: #ed5034;
+    border: 1px solid #2f3031;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+#banner-con-part .counter-down{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 60px;
+}
+#banner-con-part .counter-down .left{
+    display: flex;
+}
+#banner-con-part .counter-down .right{
+    display: flex;
+}
+#banner-con-part .counter-down .round{
+    margin: 0 40px;
+}
+#banner-con-part .counter-down .round h4{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
+#banner-con-part .counter-down .round p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+}
+/* ===================================
+        banner-con part end
+==================================== */
+
+/* ===================================
+          story part start
+==================================== */
+#story-part .img{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    position: relative;
+}
+#story-part .img img{
+    width: 100%;
+}
+#story-part .img .mocup-smoke{
+    position: absolute;
+    bottom: 25%;
+    left: -62%;
+}
+#story-part .img .overlay{
+    position: absolute;
+    top: -39%;
+    left: -38%;
+}
+#story-part .img .overlay img{
+    width: 100%;
+}
+#story-part .img .overlay {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#story-part .img .overlay a {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fcfcfc;
+	color: #ed5034;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#story-part .img .overlay a i{
+    font-size: 22px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#story-part .text{
+    padding-top: 145px;
+}
+#story-part .text .story-title h2{
+    color: #fff;
+    text-align: left;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    position: relative;
+}
+#story-part .text .story-title img{
+    padding-bottom: 35px;
+}
+#story-part .text p{
+    width: 80%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fdfdfd;
+    padding-bottom: 40px;
+    line-height: 25px;
+}
+#story-part .text .button a{
+    background: url(../images/button-bg.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-radius: 45px;
+    color: #ed5034;
+    border: 1px solid #2f3031;
+}
+/* ===================================
+          story part end
+==================================== */
+
+/* ===================================
+         home2 story part start
+==================================== */
+#story-part .home2-img {
+    width: 94%;
+    padding-top: 100px;
+    padding-bottom: 170px;
+    position: relative;
+}
+#story-part .home2-img  .home2-smoke {
+    position: absolute;
+    bottom: 28%;
+    left: -53%;
+}
+/* ===================================
+         hom2 story part end
+==================================== */
+
+/* ===================================
+         new story part start
+==================================== */
+#story-part .new-story-img{
+    padding-bottom: 0;
+}
+#story-part .new-story-text{
+    padding-top: 115px;
+}
+#story-part .new-story-text p {
+    width: 90%;
+    padding-bottom: 25px;
+}
+#story-part .new-story-text .img-part{
+    display: flex;
+}
+#story-part .new-story-text .img-part .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+    position: relative;
+}
+#story-part .new-story-text .img-part .img .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    opacity: 0;
+    transition: .4s;
+}
+#story-part .new-story-text .img-part .img:hover .overlay{
+    opacity: 1;
+}
+#story-part .new-story-text .img-part img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#story-part .new-story-text .img-part .img .round {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #a7a6a6;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#story-part .new-story-text .img-part .img .round2 a {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #a7a6a6;
+}
+#story-part .new-story-text .img-part .img a i {
+    font-size: 18px;
+    position: relative;
+    top: 46%;
+    left: 53%;
+}
+/* ===================================
+         new story part end
+==================================== */
+
+#counter-part{
+    background: url(../images/new-counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 85%;
+    margin: 0 auto;
+    padding: 65px 0;
+}
+#counter-part .item {
+    text-align: center;
+    color: #fff;
+}
+#counter-part .item h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+}
+#counter-part .item p{
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+#counter-part .item .k{
+    display: flex;
+    justify-content: center;
+}
+
+/* ===================================
+          happy-hour part start
+==================================== */
+
+#happy-hour-part .happy-hour{
+    background: url(../images/happyhour-bg.png) no-repeat right;
+    background-size: 77%;
+    padding-top: 675px;
+    margin-top: -200px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+#happy-hour-part .overlay{
+    width: 100%;
+    height: 82%;
+    background: rgba(0, 0, 0,.3);
+    position: absolute;
+    top: 18%;
+    left: 0;
+}
+#happy-hour-part .counter-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    border-right: 1px solid #272727;
+}
+#happy-hour-part .counter-down .round{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding-top: 25px;
+    padding-left: 5px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    background: url(../images/happyhour-timebg.png) no-repeat center;
+    -webkit-box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+    -moz-box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+    box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+    
+}
+#happy-hour-part .counter-down .round h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    font-weight: 400;
+}
+#happy-hour-part .counter-down .round p{
+    font-family: 'Yeseva One', cursive;
+    font-size: 15px;
+    font-weight: 400;
+}
+#happy-hour-part .bottom-text p{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+#happy-hour-part .text-part{
+    height: 300px;
+    color: #fff;
+    padding-left: 20px;
+}
+#happy-hour-part .text-part p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+#happy-hour-part .text-part .after{
+    padding-bottom: 20px;
+    position: relative;
+}
+#happy-hour-part .text-part img{
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+/* ===================================
+        home2 happy-hour part end
+==================================== */
+
+/* ===================================
+        home2 happy-hour part start
+==================================== */
+#happy-hour-part .home2-happyhour{
+    background: url(../images/home2-happy-hour.png) no-repeat right;
+    background-size: 80%;
+    padding-top: 675px;
+    margin-top: -169px;
+}
+#happy-hour-part .home2-overlay{
+    background: rgba(0, 0, 0,.1);
+}
+/* ===================================
+          happy-hour part end
+==================================== */
+
+/* ===================================
+          team part start
+==================================== */
+#team-part{
+    padding-bottom: 100px;
+    position: relative;
+}
+#team-part .team-title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+#team-part .team-title img{
+    padding-top: 13px;
+}
+#team-part .team-line{
+    padding-bottom: 0;
+}
+#team-part .team-slider-part{
+    padding: 0 60px;
+    padding-top: 0;
+}
+#team-part .team{
+    position: relative;
+    margin-top: 100px;
+}
+#team-part .team .round{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin: 20px 13px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+#team-part .team .round img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#team-part .team .smoke {
+    position: absolute;
+    top: -151px;
+    left: -9px;
+    opacity: 0;
+    visibility: hidden;
+    width: 109%;
+	z-index: -1;
+    transition: .4s;
+}
+#team-part .team:hover .smoke{
+    opacity: 1;
+    visibility: visible;
+}
+#team-part .team .smoke img{
+	width: 100%;
+	height: 100%;
+}
+
+#team-part .slick-dots li{
+    display: inline-block;
+}
+#team-part .slick-dots{
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -80px;
+    transform: translateX(-50%);
+}
+#team-part .slick-dots li button{
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #fff; 
+}
+#team-part .slick-dots .slick-active  button{
+    background: #ed5034;
+
+}
+#team-part .text{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#team-part .text h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#team-part .text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ===================================
+          team part end
+==================================== */
+
+/* ===================================
+       gallery part start
+=================================== */
+#gallery-part {
+	text-align: center;
+    padding: 0 10px;
+}
+#gallery-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#gallery-part .gallery-main{
+    margin-bottom: 20px;
+}
+#gallery-part .main .item{
+    width: 19%;
+}
+#gallery-part .gallery-img{
+    width: 100%;
+    position: relative;
+}
+#gallery-part .gallery-img .img{
+    width: 100%;
+    height: 100%;
+}
+#gallery-part .gallery-img .img img{
+    width: 100%;
+    height: 100%;
+}
+#gallery-part .gallery-img .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .4s;
+    opacity: 0;
+}
+#gallery-part .gallery-img:hover .overlay{
+    opacity: 1;
+}
+#gallery-part .gallery-img .overlay .icon-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#gallery-part .gallery-img .overlay .icon-box a{
+    background: rgba(0, 0, 0, .8);
+    padding: 18px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#gallery-part .button a{
+    background: url(../images/button-bg.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-radius: 45px;
+    color: #ed5034;
+    border: 1px solid #2f3031;
+
+}
+#gallery-part .button{
+    border-radius: 45px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: inline-block;
+    box-shadow: 1px 55px 217px 90px rgb(255, 255, 255,0.2);
+}
+/* ===================================
+       gallery part end
+=================================== */
+
+/* ===================================
+       reservation part start
+=================================== */
+#reservation-part{
+    margin-top: 60px;
+}
+#reservation-part .image {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+}
+#reservation-part .image .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(34, 34, 34,.2);
+    display: none;
+}
+#reservation-part .image img{
+    width: 100%;
+}
+#reservation-part .image .smoke-img {
+	position: absolute;
+    top: -30%;
+    left: -38%;
+    z-index: -1;
+    width: 180%;
+}
+#reservation-part form .main{
+    display: flex;
+}
+#reservation-part .reservation-title{
+    position: relative;
+    z-index: 1;
+}
+#reservation-part .reservation-title h2{
+    color: #fff;
+    text-align: left;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+#reservation-part .reservation-title img{
+    padding-bottom: 15px;
+}
+#reservation-part form .main input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: transparent;
+    margin-top: 15px;
+    color: #ffffff;
+    border-color: #222222;
+    z-index: 1;
+}
+#reservation-part form {
+    position: relative;
+    z-index: 1 ;
+}
+#reservation-part form .main input::placeholder{
+    color: #fff !important;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#reservation-part form .dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+#reservation-part form .dropdown .member{
+    width: 32%;
+}
+#reservation-part form .dropdown .day{
+    width: 32%;
+}
+#reservation-part form .dropdown .time{
+    width: 32%;
+}
+#reservation-part form .dropdown select{
+    width: 100%;
+    border: 1px solid #222222;
+    background: transparent;
+    padding: 15px;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+}
+#reservation-part form textarea{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    height: 170px;
+    resize: none;
+    background: transparent;
+    color: #fff;
+    border-color: #222222;
+    z-index: 1;
+}
+#reservation-part form button{
+    margin-top: 20px;
+    width: 100%;
+    background: url(../images/button-bg.png) no-repeat top;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    border-color: #222222;
+    z-index: 1;
+}
+#reservation-part form button a{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ed5136;
+}
+#reservation-part form .main .mar{
+    margin-left: 20px;
+}
+/* ===================================
+       reservation part end
+=================================== */
+
+/* ===================================
+       testimonial part start
+=================================== */
+#testimonial-part{
+    background: #050505;
+    margin-top: 60px;
+    padding-bottom: 70px;
+}
+#testimonial-part .test-slider{
+    width: 70%;
+    margin: 0 auto;    
+}
+#testimonial-part .test-slider .item{
+    display: flex;
+    background: #0a0b0c;
+}
+#testimonial-part .test-slider .item .img{
+    width: 35%;
+}
+#testimonial-part .test-slider .item .img img{
+    width: 100%;
+}
+#testimonial-part .test-slider .item .text{
+    width: 65%;
+    color: #fff;
+    padding: 20px 25px;
+}
+#testimonial-part .test-slider .item .text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #908f8f;
+}
+#testimonial-part .test-slider .item .text h3{
+    padding-top: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+#testimonial-part .test-slider .item .text h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#testimonial-part .test-slider .item .text ul{
+    display: flex;
+    padding: 0;
+    padding-top: 10px;
+}
+#testimonial-part .test-slider .item .text ul li{
+    padding-right: 5px;
+    color: #ed5034;
+}
+#testimonial-part .prev{
+    width: 45px;
+    height: 45px;
+    color: #ed5034;
+    background: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    transition: .4s;
+    cursor: pointer;
+}
+#testimonial-part .next{
+    width: 45px;
+    height: 45px;
+    color: #ed5034;
+    background: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+    transition: .4s;
+    cursor: pointer;
+}
+#testimonial-part .prev:hover{
+    background: #ed5034;
+    color: #fff;
+}
+#testimonial-part .next:hover{
+    background: #ed5034;
+    color: #fff;
+}
+/* ===================================
+       testimonial part end
+=================================== */
+
+/* ===================================
+       contact-part start
+=================================== */
+#contact-part{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#contact-part .item{
+    text-align: center;
+    color: #fff;
+}
+#contact-part .item h3{
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom: 30px;
+    position: relative;
+}
+#contact-part .item h3::after{
+    width: 70px;
+    height: 2px;
+    background: #ed5034;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    content: "";
+}
+#contact-part .item p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+#contact-part .item .con{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#contact-part .item .con p{
+    padding: 0 14px;
+    padding-bottom: 10px;
+}
+#contact-part .item .con::after{
+    width: 2px;
+    height: 20px;
+    background: #c1c1c2;
+    position: absolute;
+    top: 3px;
+    left: 49%;
+    transform: translateX(-50%);
+    content: "";
+}
+#contact-part .icon-part{
+    position: relative;
+}
+#contact-part .icon-part ul{
+    text-align: center;
+    padding: 0;
+}
+#contact-part .icon-part::after{
+    width: 385px;
+    height: 2px;
+    background: #222222;
+    position: absolute;
+    bottom: 23px;
+    left: 0;
+    content: "";
+}
+#contact-part .icon-part::before{
+    width: 385px;
+    height: 1px;
+    background: #222222;
+    position: absolute;
+    bottom: 23px;
+    right: 0;
+    content: "";
+}
+#contact-part .icon-part ul li{
+    display: inline-block;
+    padding: 0 8px;
+    padding-top: 40px;
+}
+#contact-part .icon-part ul li a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #ed5034;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    transition: .4s;
+}
+#contact-part .icon-part ul li:hover a{
+    background: #ed5034;
+    color: #fff;
+}
+/* ===================================
+       contact-part end
+=================================== */
+
+/* ====================================
+        back-to-top-part start
+ ====================================== */
+ .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    color: #111;
+    font-size: 20px;
+    background: #ed5034;
+    border: 2px solid #ed5034;
+    padding: 10px;
+    transition: .4s;
+}
+.back-to-top:hover{
+    background: #222;
+    color: #ed5034;
+    border: 2px solid #ed5034;
+}
+/* =================================
+        back-to-top-part end
+==================================== */
+
+/* ===================================
+       footer-part start
+=================================== */
+footer p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+/* ===================================
+       footer-part end
+=================================== */
+
+/* ===================================
+       error-part start
+=================================== */
+.nav-error{
+    background: #222;
+}
+#error-part .error{
+    background: url(../images/404.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 65px;
+    width: 100%;
+    padding-top: 209px;
+    padding-bottom: 440px;
+    text-align: center;
+}
+#error-part .error a{
+    background: url(../images/button-bg.png) no-repeat center;
+    background-size: cover;
+    font-family: 'Yeseva One', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px 30px;
+    border-radius: 45px;
+    color: #ed5034;
+    border: 1px solid #2f3031; 
+    margin: 0 auto;
+}
+/* ===================================
+       error-part end
+=================================== */
